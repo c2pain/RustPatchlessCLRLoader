@@ -76,7 +76,6 @@ Test Date: 2 Aug 2024
 ## Screenshots
 ![Palo Alto Cortex XDR Seatbelt](/screenshots/Cortex-testing.png)
 ![Sophos Intercept X Seatbelt](/screenshots/Sophos-testing.png)
-![McAfee Seatbelt](/screenshots/McAfee-testing.png)
 
 ## ToDo
 - [ ] Powershell scripts support.

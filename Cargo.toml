@@ -1,0 +1,32 @@
+[package]
+name = "RustPatchlessCLRLoader"
+version = "1.0.0"
+edition = "2021"
+authors = ["C2Pain"]
+
+[dependencies]
+windows = { version = "0.54.0", features = [
+    "Win32_System_Diagnostics_Debug", 
+    "Win32_System_LibraryLoader", 
+    "Win32_System_Com", 
+    "Win32_Foundation", 
+    "Win32_System_Ole", 
+    "Win32_System_Memory"
+    ]}
+clroxide = { version = "1.0.6", default-features = true }
+rc4 = "0.1.0"
+base64 = "0.13.0"
+sysinfo = "0.30.5"
+clap = { version = "4.5.0", features = ["derive"] }
+kernel32-sys = "0.2.2"
+winapi = {version = "0.3.9", features =["ntdef", "ntstatus", "minwindef", "winnt", "processthreadsapi","memoryapi","handleapi","libloaderapi","errhandlingapi","winbase"]}
+widestring = "0.4.3"
+ntapi = {version = "0.4.1"}
+
+[profile.release]
+pic = true
+opt-level = "z"     # Optimize for size.
+lto = true          # Enable Link Time Optimization
+codegen-units = 1   # Reduce number of codegen units to increase optimizations.
+panic = "abort"     # Abort on panic
+strip = true        # Automatically strip symbols from the binary.

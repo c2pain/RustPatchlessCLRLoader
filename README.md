@@ -74,8 +74,8 @@ Test Date: 2 Aug 2024
 | Microsoft Defender | :white_check_mark: |
 
 ## Screenshots
-![Palo Alto Cortex XDR Seatbelt](/screenshots/Cortex-testing.png)
-![Sophos Intercept X Seatbelt](/screenshots/Sophos-testing.png)
+![Seatbelt](/screenshots/test1.png)
+![Seatbelt](/screenshots/test2.png)
 
 ## ToDo
 - [ ] Powershell scripts support.

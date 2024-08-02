@@ -74,9 +74,12 @@ Test Date: 2 Aug 2024
 | Microsoft Defender | :white_check_mark: |
 
 ## Screenshots
+Palo Alto Cortex XDR
 ![Palo Alto Cortex XDR Seatbelt](/screenshots/Cortex-testing.png)
-![Palo Alto Cortex XDR Certify](/screenshots/Cortex-testing.png)
+![Palo Alto Cortex XDR Certify](/screenshots/Cortex-testing2.png)
+Sophos Intercept X
 ![Sophos Intercept X Seatbelt](/screenshots/Sophos-testing.png)
+McAfee
 ![McAfee Seatbelt](/screenshots/McAfee-testing.png)
 
 ## ToDo

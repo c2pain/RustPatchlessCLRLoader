@@ -1,4 +1,10 @@
 # RustPatchlessCLRLoader
+
+<p align="left">
+	<a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/made%20with-Rust-red"></a>
+	<a href="#"><img src="https://img.shields.io/badge/platform-windows-blueviolet"></a>
+</p>
+
 The RustPatchlessCLRLoader leverages a sophisticated integration of patchless techniques for bypassing both Event Tracing for Windows (ETW) and the Windows Antimalware Scan Interface (AMSI) across all threads with the goal of loading .NET assemblies dynamically by utilizing the [clroxide](https://github.com/yamakadi/clroxide) Rust library. It provides a robust solution for executing managed code stealthily without modifying system artifacts or triggering security mechanisms.
 
 ## Background
@@ -85,3 +91,6 @@ Test Date: 2 Aug 2024
 @yamakadi implementation of rust library that allows to host the CLR and dynamically execute dotnet binaries. [Link](https://github.com/yamakadi/clroxide)
 
 @BlackSnufkin implementation of PatchlessBypass AMSI and ETW in rust. [Link](https://github.com/BlackSnufkin/Rusty-Playground)
+
+## Full Disclaimer
+For educational purposes only. Any actions and or activities related to the material contained within this repository is solely your responsibility. The misuse of the tools in this repo could result in criminal charges being brought against the persons in question. The author will not be held responsible in the event any criminal charges are brought against any individuals misusing the tools in this repository for mailicious ourposes or to break the law.
